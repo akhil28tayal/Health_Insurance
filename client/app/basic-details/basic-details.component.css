@@ -1,0 +1,108 @@
+.main-container {
+    width: 90%;
+    height: 90%;
+    margin-left: 5em;
+}
+
+.details_tab_top {
+    width: 50%;
+    height: 20%;
+    margin-top: 2em;
+    margin-left: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0 !important;
+    box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.05em;
+}
+
+.details_tab_inner {
+    width: 50%;
+    height: 100%;
+    border: 1px solid #ddd;
+    padding: 2em 2em 2em 2em;
+}
+
+.detail_text {
+    color: #cdcdcd;
+    font-size: 120%;
+}
+
+.detail_text_dynamic {
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.height-container {
+    width: 30%;
+    height: 69%;
+    float: right;
+    position: relative;
+    top: 2em;
+    right: 7em;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.3);
+    padding: 2em 2em 2em 2em;
+}
+
+.height-segment {
+    width: 70%;
+    height: 90%;
+    margin-top: 3em;
+    font-size: 120%;
+    letter-spacing: 0.05em;
+}
+
+.image-container {
+    height: 100%;
+    width: 75%;
+    background-image: url('app/assets/images/body.png');
+    background-size: 100% 100%;
+}
+
+.line-container {
+    position: absolute;
+    top: 4.5em;
+    left: 12em;
+    height: 80%;
+    width: 15%;
+    background-image: url('app/assets/images/line.gif');
+    background-size: 100% 100%;
+}
+
+.height_text {
+    position: absolute;
+    top: 13em;
+    left: 12em;
+    background-color: #ffffff;
+    margin: 1em 0em 1em 0em;
+}
+
+.bp_tab_top {
+    width: 50%;
+    height: 44%;
+    margin-top: 2em;
+    margin-left: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0 !important;
+    box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.05em;
+}
+
+.inner_text_bp {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.bmi_tab {
+    height: 20%;
+    width: 90%;
+    margin: 3em 2em 2em 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0 !important;
+    box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.05em;
+}

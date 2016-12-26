@@ -1,0 +1,40 @@
+<div class="container main-container">
+    <div class="col-md-6 details_tab_top">
+        <div class="col-md-3 details_tab_inner">
+            <div class="inner_text">
+                <span class="detail_text">Age</span><br/>
+                <span class="detail_text_dynamic" *ngIf="user">{{user.age}} Years</span>
+            </div>
+        </div>
+        <div class="col-md-3 details_tab_inner">
+            <div class="inner_text">
+                <span class="detail_text">Weight</span><br/>
+                <span class="detail_text_dynamic" *ngIf="user">{{user.weight}} Kgs</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="height-container">
+        <div class="col-md-6 inner-text">
+            <span class="detail_text">Height</span>
+        </div>
+        <div class="height-segment">
+            <div class="image-container">
+            </div>
+            <div class="line-container">
+            </div>
+        </div>
+        <div class="col-md-3 height_text">
+            <span class="detail_text_dynamic" *ngIf="user">{{user.height}} cms</span>
+        </div>
+    </div>
+    <div class="col-md-3 bp_tab_top">
+        <div class="inner_text_bp">
+            <span class="detail_text">Blood Pressure</span><br/>
+        </div>
+        <bp-chart *ngIf="user" [bpChart]="bpChart"></bp-chart>
+    </div>
+    <div class="col-md-3 bmi_tab">
+        <bp-chart *ngIf="user" [bpChart]="bmiChart"></bp-chart>
+    </div>
+</div>

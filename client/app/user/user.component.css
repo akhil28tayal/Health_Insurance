@@ -1,0 +1,59 @@
+.main_container {
+    margin: auto;
+    margin-top: 100px !important;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.user_details {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+}
+
+.user_details_text {
+    font-family: 'Helvetica New';
+    font-size: 15px;
+    color: #808080;
+}
+
+.user_image {
+    width: 15%;
+}
+
+.user_name {
+    font-size: 200%;
+    color: #1c6ca5;
+}
+
+.user_health_team {
+    height: 9.5em;
+    margin-top: -1.4em;
+    border-left: 1px solid #ddd;
+}
+
+.health {
+    margin-top: 1em;
+    color: #808080;
+    font-size: 120%;
+}
+
+.event-drop {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.navigation {
+    width: 70%;
+    height: 70%;
+    border: 1px solid #ddd;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

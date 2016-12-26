@@ -1,0 +1,24 @@
+<div class="container main_container">
+    <div class="row user_details">
+        <div class="col-md-3 user_image">
+            <img src="app/assets/images/user.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-md-3 user_details_text" *ngIf="user">
+            <span class="user_name">{{user.name}}</span>
+            <p class="user_age"><span highlight>{{user.age}}</span> years old, <span highlight>{{user.gender}}</span></p>
+            <p class="user_address">Lives in <span highlight>{{user.address}}</span></p>
+        </div>
+        <div class="col-md-3 col-md-offset-4 user_health_team">
+            <p class="health">Health Care Team</p>
+            <div class="col-md-4" style="padding-left:0px;">
+                <img src="app/assets/images/user.jpg" class="img-thumbnail">
+            </div>
+        </div>
+    </div>
+    <div class="row event-drop">
+        <event-drop></event-drop>
+    </div>
+</div>
+<div class="container navigation">
+    <navigation></navigation>
+</div>

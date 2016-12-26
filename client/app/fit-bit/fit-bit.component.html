@@ -1,0 +1,17 @@
+<div class="container main-container">
+    <div class="col-lg-3 step-chart">
+        <step-chart *ngIf="fitbit" [stepChart]="stepChart"></step-chart>
+    </div>
+    <div class="col-lg-3 step-chart">
+        <step-chart *ngIf="fitbit" [stepChart]="distanceChart"></step-chart>
+    </div>
+    <div class="col-lg-3 step-chart">
+        <step-chart *ngIf="fitbit" [stepChart]="caloriesChart"></step-chart>
+    </div>
+    <div class="col-lg-5 activity-chart">
+        <step-chart *ngIf="fitbit" [stepChart]="activityChart"></step-chart>
+    </div>
+    <div class="col-lg-5 activity-chart">
+        <step-chart *ngIf="fitbit" [stepChart]="exerciseChart"></step-chart>
+    </div>
+</div>

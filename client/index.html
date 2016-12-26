@@ -1,0 +1,36 @@
+<head>
+    <title>Health Insurance</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 1. Load libraries -->
+    <!-- Polyfill for older browsers -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/vis/dist/vis.min.css">
+    <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="node_modules/vis/dist/vis.min.js"></script>
+    <script src="node_modules/zingchart/client/zingchart.min.js"></script>
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/d3/build/d3.min.js"></script>
+    <script src="node_modules/event-drops/dist/eventDrops.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function(err) {
+            console.error(err);
+        });
+    </script>
+    <base href="/">
+</head>
+<!-- 3. Display the application -->
+
+<body>
+    <my-app>Loading...</my-app>
+</body>
+
+</html>

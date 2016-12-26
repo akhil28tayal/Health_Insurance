@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-lg-5 col-md-5 col-sm-8 col-xs-9 bhoechie-tab-container">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 bhoechie-tab-menu">
+            <div class="list-group">
+                <a routerLink="./basic-details" class="list-group-item text-center" (click)="clicked(0)" [class.active]="isClicked[0]===1">
+                    <h3 class="glyphicon glyphicon-user"></h3><br/>Basic Details
+                </a>
+                <a routerLink="./dynamic" class="list-group-item text-center" (click)="clicked(1)" [class.active]="isClicked[1]===1">
+                    <h3 class="glyphicon glyphicon-road"></h3><br/>Train
+                </a>
+                <a routerLink="./fit-bit" class="list-group-item text-center" (click)="clicked(2)" [class.active]="isClicked[2]===1">
+                    <h3 class="glyphicon glyphicon-user "></h3><br/>Fitbit Stats
+                </a>
+                <a routerLink="./compute-premium" class="list-group-item text-center" (click)="clicked(3)" [class.active]="isClicked[3]===1">
+                    <h3 class="glyphicon glyphicon-stats "></h3><br/>Compute Premium
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-14 col-sx-14 " style="height:100% ">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
